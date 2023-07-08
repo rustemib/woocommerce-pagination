@@ -2,7 +2,7 @@
 Изменение количества элементов в поле пагинации
 втавить в function.php темы
 
-'''
+```
 function custom_woocommerce_pagination_args($args) {
     $args['end_size'] = 1; // Количество элементов в начале и конце пагинации
     $args['mid_size'] = 0; // Количество элементов в середине пагинации
@@ -17,4 +17,4 @@ function custom_woocommerce_pagination_args($args) {
     return $args;
 }
 add_filter('woocommerce_pagination_args', 'custom_woocommerce_pagination_args', 10, 1);
-'''
+```
