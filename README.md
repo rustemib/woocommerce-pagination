@@ -1,7 +1,6 @@
 # woocommerce
-
-Изменение количества элементов в поле пагинации
-втавить в function.php темы
+//Изменение количества элементов в поле пагинации
+//втавить в function.php темы
 
 
 function custom_woocommerce_pagination_args($args) {
